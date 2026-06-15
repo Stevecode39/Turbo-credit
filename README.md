@@ -1,15 +1,19 @@
 # Turbo-credit
 
-A Vercel-ready static site configured to deploy from `main`.
+A Vercel-ready Next.js app configured to deploy from `main`.
 
-## Local build
+## Local development
 
 ```bash
 npm install
-npm run build
+npm run dev
 ```
 
-The build output is written to `dist/`.
+## Production build
+
+```bash
+npm run build
+```
 
 ## Vercel settings
 
@@ -17,7 +21,6 @@ The repository includes `vercel.json` with:
 
 - install command: `npm install`
 - build command: `npm run build`
-- output directory: `dist`
-- clean URLs enabled
+- framework: detected from the root `package.json` dependency on `next`
 
-When this GitHub repository is connected to a Vercel project, pushes to `main` will trigger a production deployment.
+When this GitHub repository is connected to a Vercel project with the root directory set to the repository root, pushes to `main` will trigger a production deployment.
