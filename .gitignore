@@ -308,9 +308,6 @@ ServiceFabricBackup/
 # Microsoft Fakes
 FakesAssemblies/
 
-# GhostDoc plugin setting file
-*.GhostDoc.xml
-
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
@@ -427,3 +424,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Vercel / Node deployment
+.vercel/
+dist/
+.env*.local
