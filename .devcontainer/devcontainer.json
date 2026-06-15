@@ -1,0 +1,11 @@
+{
+  "name": "Turbo-credit",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js Preview",
+      "onAutoForward": "openPreview",
+      "protocol": "http"
+    }
+  }
+}
