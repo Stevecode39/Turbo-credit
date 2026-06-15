@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+The dev server listens on port `3000` and is configured for automatic preview forwarding in compatible remote environments.
+
 ## Production build
 
 ```bash
