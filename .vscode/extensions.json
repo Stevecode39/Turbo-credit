@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "github.vscode-github-actions",
+        "codeium.codeium",
+        "ms-vscode-remote.remote-containers"
+    ]
+}

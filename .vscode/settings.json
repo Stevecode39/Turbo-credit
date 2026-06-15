@@ -6,5 +6,13 @@
       "onAutoForward": "openPreview",
       "protocol": "http"
     }
+  },
+  "chat.mcp.serverSampling": {
+    "Turbo-credit/.vscode/mcp.json: io.github.github/github-mcp-server": {
+      "allowedModels": [
+        "copilot/auto",
+        "copilotcli/auto"
+      ]
+    }
   }
 }
